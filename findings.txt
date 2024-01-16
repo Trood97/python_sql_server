@@ -1,0 +1,16 @@
+creating the python env - python -m venv venv(desired_venv_name)
+Activating the env - venv/Scripts/Activate.ps1
+
+For many, SQL is the "meat and potatoes" of data analysis
+
+SQL (Structured Query Language) is a programming language designed for managing data in a relational database.
+
+so each person has his or her own schema. Schemas are defined by usernames, so if your username is databass3000,
+all of the tables you upload will be stored under the databass3000 schema.
+
+SELECT indicates which columns you'd like to view, and FROM identifies the table that they live in.
+
+(Remember that when referencing tables, the table names have to be preceded by the name of user who uploaded it.)
+
+You might have noticed that the SELECT and `FROM' commands are capitalized. This isn't actually necessary
+
