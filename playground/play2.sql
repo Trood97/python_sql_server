@@ -26,3 +26,23 @@ HAVING = The WHERE clause won't work for this because it doesn't allow you to fi
 CASE - works with select , a new column will be created, config - case when then else end as "column_name" -> creates a column with filters
 
 DISTINCT - unique values from the columns, targeted directly to the column names with select key
+
+JOIN - joins two tables as simple as that,  syn- ...from table_A join table_B on table_B.col = table_A.col..  -> joins two tables (relational)
+        "foreign keys" or "join keys.
+
+INNER JOIN - same as join basically, returns intersecting rows only, like intersection, syn - inner join .. on (or) just join
+        -> returns intersected rows only
+
+** INNER JOIN IS JOIN , LEFT ALL ARE OUTER ONES **
+
+LEFT JOIN - from table_A.. is the left table , join table_B , is the right table, -> returns all mathced and unmatched rows from left table
+
+RIGHT JOIN - not much difference, anyway matched item only intersect on joining, left join can be used in lieu of this. -> returns matched from right table
+
+WHERE AND ON -  And operator only exectutes from the right table and doesn't eradicate possiblities from the left table. that is where 'WHERE' comes in
+
+UNION , UNION ALL - stacking data on top of the other unlike joins which is side by side. Two select statements here.
+
+JOIN WITH COMPARISION OPERATORS = after joining can use operators with AND or WHERE conditions while joining the tables.
+
+SELF JOINS - joining the same table with aliases for further clarity and operations.
